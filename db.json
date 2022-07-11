@@ -17,7 +17,7 @@
       "password": "test"
     }
   ],
-  "modulos": [
+  "roles": [
     {
       "id": 1,
       "nombre": "Ventas",
