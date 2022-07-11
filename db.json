@@ -5,7 +5,7 @@
       "nombre": "Sam",
       "apellido": "Admin",
       "rol": "Admin",
-      "email": "test@test.com"
+      "email": "test@test.com",
       "password": "test"
     },
     {
@@ -13,7 +13,7 @@
       "nombre": "Sam",
       "apellido": "User",
       "rol": "User",
-      "email": "user@test.com"
+      "email": "user@test.com",
       "password": "test"
     }
   ]
