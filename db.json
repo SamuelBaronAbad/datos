@@ -1,37 +1,46 @@
 {
-  "usuarios": [
-    {
-      "id": "01",
-      "nombre": "Sam",
-      "apellido": "Admin",
-      "rol": "Admin",
-      "email": "test@test.com",
-      "password": "test"
-    },
-    {
-      "id": "02",
-      "nombre": "Sam",
-      "apellido": "User",
-      "rol": "User",
-      "email": "user@test.com",
-      "password": "test"
-    }
-  ],
-  "roles": [
-    {
-      "id": 1,
-      "nombre": "Ventas",
-      "componente": "C-ventas"
-    },
-    {
-      "id": 2,
-      "nombre": "Comercial",
-      "componente": "C-comercial"
-    },
-    {
-      "id": 3,
-      "nombre": "Tecnico",
-      "componente": "C-tecnico"
-    }
-  ]
-}
+    "usuarios": [
+      {
+        "id": "01",
+        "nombre": "Sam",
+        "apellido": "Admin",
+        "rol": "Admin",
+        "subrol": [
+            "Ventas",
+            "Tecnico",
+            "Comercial"
+        ],
+        "email": "test@test.com",
+        "password": "test"
+      },
+      {
+        "id": "02",
+        "nombre": "Sam",
+        "apellido": "User",
+        "rol": "User",
+        "subrol": [
+            "Ventas",
+            "Tecnico"
+        ],
+        "email": "user@test.com",
+        "password": "test"
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "nombre": "Ventas",
+        "componente": "C-ventas"
+      },
+      {
+        "id": 2,
+        "nombre": "Comercial",
+        "componente": "C-comercial"
+      },
+      {
+        "id": 3,
+        "nombre": "Tecnico",
+        "componente": "C-tecnico"
+      }
+    ]
+  }
