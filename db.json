@@ -16,5 +16,22 @@
       "email": "user@test.com",
       "password": "test"
     }
+  ],
+  "modulos": [
+    {
+      "id": 1,
+      "nombre": "Ventas",
+      "componente": "C-ventas"
+    },
+    {
+      "id": 2,
+      "nombre": "Comercial",
+      "componente": "C-comercial"
+    },
+    {
+      "id": 3,
+      "nombre": "Tecnico",
+      "componente": "C-tecnico"
+    }
   ]
 }
